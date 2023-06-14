@@ -21,7 +21,7 @@ export const Cards = () => {
         </div>
 <div className= "lg:h-screen flex flex-wrap row-auto justify-center mx-auto">
 
- <div class="antialiased text-gray-900 p-2">
+ <div class=" text-gray-900 p-2">
           <div>
             <Image
               src={'/project1.jpg'}
@@ -58,7 +58,7 @@ export const Cards = () => {
           </div>
         </div>
 
-        <div class="antialiased text-gray-900 p-2">
+        <div class=" text-gray-900 p-2">
           <div>
             <Image
               src={'/Project2.jpg'}
@@ -94,7 +94,7 @@ export const Cards = () => {
             </div>
           </div>
         </div>
-        <div class="antialiased text-gray-900 p-2">
+        <div class=" text-gray-900 p-2">
           <div>
             <Image
               src={'/project3.jpg'}
