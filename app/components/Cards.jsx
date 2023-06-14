@@ -42,7 +42,7 @@ export const Cards = () => {
  <div class="antialiased text-gray-900 p-2">
           <div>
             <Image
-              src="/project1.jpg"
+              src='/project1.jpg'
               width={500}
               height={500}
               className="relative rounded-lg shadow-lg "
@@ -78,7 +78,7 @@ export const Cards = () => {
         <div class="antialiased text-gray-900 p-2">
           <div>
             <Image
-              src="/Project2.jpg"
+              src='/Project2.jpg'
               width={500}
               height={500}
               className="relative rounded-lg shadow-lg "
@@ -113,7 +113,7 @@ export const Cards = () => {
         <div class="antialiased text-gray-900 p-2">
           <div>
             <Image
-              src="/project3.jpg"
+              src='/project3.jpg'
               width={500}
               height={500}
               className="relative rounded-lg shadow-lg "
