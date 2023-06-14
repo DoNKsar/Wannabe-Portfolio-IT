@@ -2,7 +2,7 @@
 import React from 'react'
 import {CodeBracketIcon} from "@heroicons/react/24/solid";
 import Image from 'next/image'
-import {motion} from 'framer-motion'
+
 
 
 
@@ -19,34 +19,16 @@ export const Cards = () => {
             These are some of the app that i've build.
           </p>
         </div>
-
-        {/* <div className=' group relative overflow-hidden border-2 border-white/50 rounded-xl'>
-            
-            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-100'></div>
-              <div className='relative h-96 w-full'>
-                <Image src='/Project2.jpg'
-                layout='fill'
-                objectFit='contain'
-                className='group-hover:scale-125 transition-all duration-500'/>
-                </div>
-            
-            <div className='absolute -bottom-full left-12 group-hover:botton-24 transition-all duration-500 z-50'>
-              <span>HTML JS CSS</span> 
-              </div>
-            <div className='absolute -bottom-full left-12 group-hover:botton-24 transition-all duration-700 z-50'>
-              <span>Anime Project</span> 
-              </div>
-
-          </div> */}
 <div className= "lg:h-screen flex flex-wrap row-auto justify-center mx-auto">
 
  <div class="antialiased text-gray-900 p-2">
           <div>
             <Image
-              src='/project1.jpg'
+              src={'/project1.jpg'}
               width={500}
               height={500}
-              className="relative rounded-lg shadow-lg "
+              alt='project img'
+              className='relative rounded-lg shadow-lg mx-auto'
             />
 
             <div class="relative px-4 -mt-16  ">
@@ -79,10 +61,11 @@ export const Cards = () => {
         <div class="antialiased text-gray-900 p-2">
           <div>
             <Image
-              src='/Project2.jpg'
+              src={'/Project2.jpg'}
               width={500}
               height={500}
-              className="relative rounded-lg shadow-lg "
+              alt='project img'
+              className='relative rounded-lg shadow-lg mx-auto'
             />
 
             <div class="relative px-4 -mt-16  ">
@@ -114,10 +97,11 @@ export const Cards = () => {
         <div class="antialiased text-gray-900 p-2">
           <div>
             <Image
-              src='/project3.jpg'
+              src={'/project3.jpg'}
               width={500}
               height={500}
-              className="relative rounded-lg shadow-lg "
+              alt='project img'
+              className='relative rounded-lg shadow-lg mx-auto'
             />
 
             <div class="relative px-4 -mt-16  ">
