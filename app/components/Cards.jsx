@@ -126,7 +126,7 @@ export const Cards = () => {
 
                   <div class="mt-2">
                     <a
-                      href="https://wannabe-portfolio-it.vercel.app/ "
+                      href="https://wannabe-portfolio.netlify.app/ "
                       target="_blank"
                     >
                       <button class="text-purple-700 text-2xl font-semibold p-2">
