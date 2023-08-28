@@ -26,12 +26,11 @@ export const Header = () => {
               />
             </div>
             <p className="pb-7 leading-relaxed xl:w-2/4 lg:w-3/4 text-[18px]">
-              Welcome to my IT portfolio! I'm Alex, an avid gamer intrigued by
-              game development. Alongside my passion for gaming, I also enjoy
-              fitness and frequent the gym. My interest in coding sparked from
-              its potential for financial success and its inherent coolness. I
-              find joy&sadness in solving problems creatively and bringing ideas
-              to life through code.{" "}
+              I am a swimming instructor who discovered a passion for coding,
+              who has ventured into the exciting world of front-end development.
+              Combining my love for teaching with my newfound interest in
+              technology, I am dedicated to honing my skills and creating
+              engaging user experiences through web development{" "}
             </p>
             <div className="flex text-[35px] gap-x-6 max-w-max mx-auto lg:mx-0 pt-6">
               <a href="https://github.com/DoNKsar" target="_blank">
