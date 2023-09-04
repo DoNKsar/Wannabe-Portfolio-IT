@@ -36,7 +36,10 @@ export const Header = () => {
               <a href="https://github.com/DoNKsar" target="_blank">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/" target="_blank">
+              <a
+                href="www.linkedin.com/in/alex-ghezea-49b180280"
+                target="_blank"
+              >
                 <FaLinkedin />
               </a>
             </div>
