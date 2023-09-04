@@ -37,7 +37,7 @@ export const Header = () => {
                 <FaGithub />
               </a>
               <a
-                href="www.linkedin.com/in/alex-ghezea-49b180280"
+                href="https://www.linkedin.com/in/alex-ghezea-49b180280/"
                 target="_blank"
               >
                 <FaLinkedin />
